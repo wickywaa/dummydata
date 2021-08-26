@@ -4,7 +4,7 @@ const statuses = require('./callStatuses')
 const hours = require('./hours')
 const app = express()
 
-const port = (3000||process.env.PORT)
+const port = (process.env.PORT)
 
 app.use(express.json())
 
